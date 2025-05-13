@@ -8,7 +8,5 @@ export default defineConfig({
     vue(),
     tailwindcss(),
   ],
-  base: process.env.NODE_ENV === 'production'
-  ? '/Vitality-Landing/'
-  : '/',
+  base: '/',
 });
